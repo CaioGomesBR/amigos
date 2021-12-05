@@ -27,32 +27,19 @@ font-family: 'Readex Pro', sans-serif;
     margin:0px;
     background-color:#1a3b5d;
     list-style:none;
-    columns: 2;
-    
-
-
-    
+    columns: 3;
    
 }
 
-#menu ul li { display: inline; 
-    
-    
-
-}
-
-
+#menu ul li { display: inline; }
 
 #menu li {
-    width: 50px;
-
-    
+    justify-content: center;
 }
 
 #menu ul li a {
     padding: 2px 10px;
     display: block;
-    
     
     
     
@@ -103,8 +90,6 @@ font-family: 'Readex Pro', sans-serif;
 }
 
 .navegacao {
-    height: auto;
-    width: flex;
     padding: 10px;
     color: #fff;
     margin-bottom: 10px;
@@ -291,9 +276,8 @@ padding-right: 100px;
 }
 
 .nav {
-    
     display: flex;
     justify-content: center;
 
+    
 }
-
