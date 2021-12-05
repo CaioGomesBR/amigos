@@ -27,7 +27,7 @@ font-family: 'Readex Pro', sans-serif;
     margin:0px;
     background-color:#1a3b5d;
     list-style:none;
-    columns: 3;
+    
    
 }
 
@@ -39,7 +39,7 @@ font-family: 'Readex Pro', sans-serif;
 
 #menu ul li a {
     padding: 2px 10px;
-    display: block;
+    display: inline-block;
     
     
     
@@ -278,6 +278,4 @@ padding-right: 100px;
 .nav {
     display: flex;
     justify-content: center;
-
-    
 }
