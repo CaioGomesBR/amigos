@@ -223,15 +223,11 @@ font-family: 'Readex Pro', sans-serif;
     padding: 80px;
     margin: 10px;
     border-radius: 10px;
-    vertical-align: top;
- 
-    
-  
-   
-
-    
+    vertical-align: top;   
     
 }
+
+
 
 .info {
     text-align: center;
@@ -261,7 +257,8 @@ font-family: 'Readex Pro', sans-serif;
     text-align: center;
     font-family: 'Montagu Slab', serif;
 font-family: 'Readex Pro', sans-serif;
-padding-right: 100px;
+padding-right: 500px;
+padding-top: 80px;
 
 }
 
@@ -270,11 +267,44 @@ padding-right: 100px;
     display: inline-block;
     vertical-align: top;
 }
-
-.immg {
-    margin-left: 30px;
+-----------------------
+.rodape {
+    display: flex;
+    justify-content: center;
+    
 }
 
+.immg {
+    display: flex;
+    padding-left: 400px;
+
+}
+
+.immg img{
+    margin-left: 30px;
+    width: 300px;
+    max-height: 300px;
+    padding-left: 102px;
+    padding-top: 50px;
+
+}
+
+
+
+.logobr {
+    display: inline-block;
+}
+
+.logobr img {
+    display: inline-block;
+    width: 300px;
+    max-height: 300px;
+    padding-left: 102px;
+    padding-top: 50px;
+   
+
+}
+---------------------
 .nav {
     display: flex;
     justify-content: center;
@@ -292,6 +322,7 @@ padding-right: 100px;
     border-radius: 20px;
     box-shadow: 0 3px 3px #000;
     cursor: pointer;
+    width: 170px;
     
   }
   
