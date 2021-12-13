@@ -225,7 +225,7 @@ font-family: 'Readex Pro', sans-serif;
     margin: 10px;
     border-radius: 10px;
     vertical-align: top; 
-      
+    text-align: center;  
     
 }
 
@@ -310,7 +310,7 @@ align-items: center;
 .ultimo {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     flex-basis: auto;
     
