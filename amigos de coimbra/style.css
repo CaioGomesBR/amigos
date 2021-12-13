@@ -224,7 +224,8 @@ font-family: 'Readex Pro', sans-serif;
     padding: 80px;
     margin: 10px;
     border-radius: 10px;
-    vertical-align: top;   
+    vertical-align: top; 
+    text-align: center;  
     
 }
 
