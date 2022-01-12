@@ -362,7 +362,8 @@ align-items: center;
     background-color: dodgerblue;
     color: white;
     padding: 16px;
-    font-size: 16px;
+    font-size: 18pt;
+    font-weight: bold;
     border: none;
     border-radius: 20px;
     box-shadow: 0 3px 3px #000;
@@ -370,6 +371,9 @@ align-items: center;
     width: 170px;
     font-weight: 800;
     font-family: 'Readex Pro', sans-serif;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
     
     
     
@@ -379,6 +383,7 @@ align-items: center;
   .dropdown {
     position: relative;
     display: inline-block;
+    transition: all .4s ease-out;
     
   }
 
@@ -397,6 +402,7 @@ align-items: center;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     overflow: scroll;
+    transition: all .4s ease-out;
   }
   
   /* Links inside the dropdown */
@@ -405,10 +411,11 @@ align-items: center;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    transition: all .3s ease-out;
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {background-color: peru;}
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
