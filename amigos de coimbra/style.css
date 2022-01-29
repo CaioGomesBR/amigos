@@ -1,7 +1,21 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 html {
     scroll-behavior: smooth;
   }
+
+i {
+    font-size: 30px;
+    padding: 3px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  /*.social-icons li a:hover i{
+  transform: scale(1.5);
+  color: #ce36d3;
+  transition: all .2s ease-in-out;
+}*/
 
 .fundo {
     /*background-color: #1a3b5d;*/
