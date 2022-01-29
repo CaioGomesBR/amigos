@@ -11,6 +11,12 @@ i {
     cursor: pointer;
   }
 
+  /*.social-icons li a:hover i{
+  transform: scale(1.5);
+  color: #ce36d3;
+  transition: all .2s ease-in-out;
+}*/
+
 .fundo {
     /*background-color: #1a3b5d;*/
     background: rgb(13,35,67);
