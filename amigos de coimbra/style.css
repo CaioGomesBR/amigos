@@ -40,6 +40,29 @@ i {
       color: peru;
   }
 
+  .copy{
+    padding: 15px;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    /*position: fixed;*/
+    left: 0;
+    bottom: 0;
+    
+    z-index: 9999;
+    background-color:transparent ;
+    transition: .3s;
+  }
+
+  @media (max-width: 1012px) {
+    #copy {
+        position: static;
+        width: auto;
+        padding: 20px 15px;
+    }
+}
+   
+
   /*.social-icons li a:hover i{
   transform: scale(1.5);
   color: #ce36d3;
