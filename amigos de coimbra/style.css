@@ -1,14 +1,43 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+/*font-family: 'Josefin Sans', sans-serif;*/
 
 html {
     scroll-behavior: smooth;
   }
 
+  h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+  }
+
 i {
     font-size: 30px;
     padding: 3px;
-    color: #fff;
+    color: #000005;
     cursor: pointer;
+  }
+
+  #zap:hover {
+      color: #25d366;
+
+  }
+
+  #insta:hover {
+      color:  #E1306C;
+  }
+
+  #link:hover{
+      color: deepskyblue;
+
+  }
+
+  #user {
+      font-size: 20px;
+  }
+
+  #user:hover {
+      color: peru;
   }
 
   /*.social-icons li a:hover i{
@@ -19,27 +48,56 @@ i {
 
 .fundo {
     /*background-color: #1a3b5d;*/
-    background: rgb(13,35,67);
-background: linear-gradient(90deg, rgba(13,35,67,1) 0%, rgba(4,112,125,1) 100%);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
     
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
+
+.btn-grad {background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: black;            
+   box-shadow: 0 0 5 20px black;
+   border-radius: 10px;
+   display: block;
+  font-size: large;
+   font-weight: bold;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
 .main {
-    color: #fff;
+    color: black;
     text-align: center;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
     font-family: 'Montagu Slab', serif;
 font-family: 'Readex Pro', sans-serif;
 }
 
 .titulo {
     font-size: 30px;
-    color: #fff;
+    color: black;
     text-align: center;
     padding: 50px;
     font-family: 'Montagu Slab', serif;
 font-family: 'Readex Pro', sans-serif;
+font-weight: bold;
 
 }
 
@@ -185,7 +243,7 @@ font-family: 'Readex Pro', sans-serif;
 }
 
 .menus {
-    color: cornsilk;
+    color: black;
     font-family: 'Montagu Slab', serif;
 font-family: 'Readex Pro', sans-serif;
 }
@@ -199,16 +257,21 @@ font-family: 'Readex Pro', sans-serif;
     box-shadow: 0 4px 20px rgb(0, 0, 0, 0.3);
    margin: 5px 20px;
     width: 260px ;
-    height: 350px;
+    height: 370px;
     padding: 15px;
     overflow: hidden;
+    border-radius: 10px;
 
    
 }
 
+h4{
+    color: black !important;
+}
+
 .h4_G {
     font-size: 80%;
-    color: #fff;
+    color: black;
 }
 
 .tamanho {
@@ -218,20 +281,25 @@ font-family: 'Readex Pro', sans-serif;
 }
 
 .curso-info {
-    padding: 10px;
+   
+    padding: 5px;
     height: 90px;
    
 }
+
+
 
 .curso img {
     width: 100%;
     max-height: 50%;
     object-fit: contain;
+    border-radius: 5px;
     
 }
 
 .nota {
-    color: #999
+    color: black;
+    padding-top: 10px;
 }
 
 .sites {
@@ -240,7 +308,7 @@ font-family: 'Readex Pro', sans-serif;
 }
 
 .letras {
-    color: cornsilk;
+    color: black;
     text-align: center;
 }
 
@@ -253,7 +321,8 @@ font-family: 'Readex Pro', sans-serif;
     display: inline-block;
     width: 100px;
     height: 250px;
-    background-color: #e8eae7 ;
+    background-color: transparent ;
+    box-shadow: 0 4px 20px rgb(0, 0, 0, 0.3);
     padding: 80px;
     margin: 10px;
     border-radius: 10px;
@@ -279,7 +348,7 @@ font-family: 'Readex Pro', sans-serif;
 .end {
     font-size: 50px;
     font-family: 'Corinthia', cursive;
-    color: #e8eae7;
+    color: black;
     text-align: center;
     clear: both;
 
@@ -373,8 +442,8 @@ align-items: center;
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: dodgerblue;
-    color: white;
+    background-color: #1e90ff50;
+    color: black;
     padding: 16px;
     font-size: 18pt;
     font-weight: bold;
@@ -435,7 +504,7 @@ align-items: center;
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: deepskyblue;}
+  .dropdown:hover .dropbtn {background-color: #00bfff95;}
 
   * ::-webkit-scrollbar {
     width: 10px ;
