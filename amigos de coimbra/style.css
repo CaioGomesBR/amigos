@@ -1,6 +1,9 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /*font-family: 'Josefin Sans', sans-serif;*/
+/*font-family: 'Raleway', sans-serif;*/
 
 html {
     scroll-behavior: smooth;
@@ -20,15 +23,24 @@ i {
 
   #zap:hover {
       color: #25d366;
+      -webkit-transform: scale(1.1);
+      transform: scale(1.3);
+      transition: all .3s ease-out;
 
   }
 
   #insta:hover {
       color:  #E1306C;
+      -webkit-transform: scale(1.1);
+      transform: scale(1.3);
+      transition: all .3s ease-in-out;
   }
 
   #link:hover{
       color: deepskyblue;
+      -webkit-transform: scale(1.1);
+      transform: scale(1.3);
+      transition: all .3s ease-out;
 
   }
 
@@ -187,8 +199,13 @@ font-weight: bold;
 }
 
 .tel {
-    color:deepskyblue;
+    color:black;
+    text-decoration: none;
     
+}
+
+.tel:hover {
+    color: deepskyblue;
 }
 
 .navegacao {
@@ -333,6 +350,20 @@ h4{
 .letras {
     color: black;
     text-align: center;
+    
+    
+}
+
+.letras-nome {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600 ;
+    font-style: italic;
+}
+
+.letras-titulo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800 ;
+    letter-spacing: .2rem;
 }
 
 .h4 {
@@ -357,7 +388,12 @@ h4{
 
 
 .info {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    gap: 20px;
+    
     
 }
 
@@ -389,7 +425,7 @@ h4{
 }
 
 .pe {
-    font-size: 30px;
+    font-size: 20px;
     /*float: right;*/
     color: #e8eae7;
     text-align: center;
@@ -399,12 +435,9 @@ font-family: 'Readex Pro', sans-serif;
 display: flex;
 align-items: center;
 
-
-
-
-
-
 }
+
+
 
 /*#fim {
 
@@ -426,8 +459,8 @@ align-items: center;
 
 .immg img{
     margin-left: 30px;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
   
 
 }
@@ -542,3 +575,26 @@ align-items: center;
 *::-webkit-scrollbar-thumb {
     background-color: peru;
 }
+
+#voltar-inicio {
+    
+    position: fixed;
+    bottom: 3px;
+    right: 3vw;
+    background: transparent;
+    border: 0;
+}
+
+#setaUp {
+    font-size: 38px;
+    color: #000000;
+
+}
+
+#setaUp:hover {
+    color: peru;
+    -webkit-transform: scale(1.1);
+      transform: scale(1.3);
+      transition: all .3s ease-out;
+}
+
